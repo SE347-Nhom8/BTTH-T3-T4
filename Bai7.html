@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Chương trình học thiết kế đồ họa</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font:
+          16px Arial,
+          sans-serif;
+        background: #fff url("images/bai7/nguyen-tac-trong-thiet-ke-do-hoa.jpg") repeat-x top left;
+      }
+      .page {
+        position: relative;
+        min-height: 680px;
+        padding: 120px 15px 35px;
+        max-width: 1265px;
+        margin: auto;
+      }
+      h1 {
+        text-align: center;
+        color: #00e800;
+        font-size: 30px;
+        margin: 0 0 22px;
+        text-transform: uppercase;
+      }
+      .tools {
+        position: absolute;
+        top: 305px;
+        left: 80px;
+        width: 657px;
+        z-index: -1;
+      }
+      table {
+        border: 5px solid #00ed00;
+        border-spacing: 2px;
+        background: #00ed00;
+        margin: auto;
+        width: 545px;
+        position: relative;
+        z-index: 1;
+      }
+      th,
+      td {
+        border: 1px solid #00e600;
+        padding: 6px 5px;
+        background: #fff;
+      }
+      th {
+        background: #00ed00;
+        color: #fff;
+        text-align: center;
+      }
+      tbody tr:nth-child(even) td {
+        background: #9ffff5;
+      }
+      tbody tr:last-child td {
+        background: #ffa500;
+      }
+      td:first-child,
+      td:nth-child(n + 3) {
+        text-align: center;
+      }
+      td:nth-child(2) {
+        white-space: nowrap;
+      }
+      @media (max-width: 700px) {
+        .page {
+          padding-top: 145px;
+        }
+        .tools {
+          left: 0;
+          top: 380px;
+          max-width: 100%;
+          opacity: 0.35;
+        }
+        table {
+          width: 100%;
+          font-size: 13px;
+        }
+        td:nth-child(2) {
+          white-space: normal;
+        }
+        h1 {
+          font-size: 24px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <h1>Chương trình học thiết kế đồ họa</h1>
+      <img
+        class="tools"
+        src="images/bai7/truong_day_thiet_ke_do_hoa.jpg"
+        alt="Dụng cụ thiết kế đồ họa"
+      />
+      <table aria-label="Chương trình học thiết kế đồ họa">
+        <thead>
+          <tr>
+            <th rowspan="2">STT</th>
+            <th rowspan="2">TÊN MÔN HỌC</th>
+            <th colspan="2">SỐ TIẾT</th>
+          </tr>
+          <tr>
+            <th>Lý thuyết</th>
+            <th>Thực hành</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Thiết kế mẫu với CorelDraw</td>
+            <td>30</td>
+            <td>60</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Thiết kế mẫu với Illustrator</td>
+            <td>30</td>
+            <td>60</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Xử lý ảnh với Photoshop</td>
+            <td>30</td>
+            <td>60</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Mỹ thuật ứng dụng</td>
+            <td>30</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Nghệ thuật chữ</td>
+            <td>30</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Layout web</td>
+            <td>30</td>
+            <td>60</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Thiết kế bộ nhận diện thương hiệu</td>
+            <td>30</td>
+            <td>60</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Khóa luận tốt nghiệp</td>
+            <td></td>
+            <td>150</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
